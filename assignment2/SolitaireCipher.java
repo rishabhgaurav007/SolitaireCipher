@@ -12,6 +12,8 @@ public class SolitaireCipher {
      */
     public int[] getKeystream(int size) {
         /**** ADD CODE HERE ****/
+        int[] keystream = new int[size];
+        
         return null;
     }
 
