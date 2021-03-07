@@ -174,23 +174,7 @@ public class Deck {
         // secondCard.next = q;
         // Card temp = q.prev;
         // q.prev = secondCard; 
-               
-        //
-
-
-
-
-
-
-        Card a1 = this.head;
-        Card a2 = firstCard;
-        Card b1 = secondCard;
-        Card prev = b1.prev;
-        Card b2 = a1.prev;
-        b2.next = a2.next;
-        a2.next.prev = b2;
-        prev.next = a1;
-        a1.prev = prev;
+      
     }
 
     /*
